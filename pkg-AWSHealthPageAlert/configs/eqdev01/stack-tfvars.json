@@ -1,0 +1,17 @@
+{
+  "aws_profile": "eq-dev",
+  "aws_region": "us-east-1",
+  "lambda_function_create": true,
+  "lambda_function_map": {
+    "lambda_function_name": "aws-health-page-status",
+    "event_bus_name": "eqdev01-event-bus",
+    "slack_webhook_url": "eqdev01-slack-notifier"
+  },
+
+  "tags": {
+    "Company": "eq",
+    "Environment": "eqdev01",
+    "Project": "eq",
+    "Terraform": true
+  }
+}
